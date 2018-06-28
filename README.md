@@ -2,7 +2,7 @@
 My answer of the "15 Days of Learning SQL" on HackerRank
 
 
-select tabP.submission_date, tabP.hack_id_cnt, tabQ.first_id, hackers.name
+select tabP.submission_date, tabP.hack_id_cnt, tabQ.first_id, hackers.name </br>
 from
 (select tabC.submission_date, count(tabC.hacker_id) as hack_id_cnt
 from
